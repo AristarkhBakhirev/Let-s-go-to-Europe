@@ -1,0 +1,159 @@
+/* CSS file for Light Mode is similar to Dark Mode besides the color scheme */
+
+/* General settings */
+body {
+    background: white; /* In case of image loss */
+    background-image: url(../pictures/north-background.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    font-family: Roboto;
+    font-style: normal;
+}
+
+li {
+    list-style-type: none; /*remove markers in the list*/
+}
+
+
+/* Header-navbar */
+#navbar {
+	opacity: 0.9;
+}
+
+#home {
+    position: fixed;
+    top: 2%;
+    left: 1%;
+
+    border: 1px solid #F8F9FA;
+    width: 80px;
+    border-radius: 50px;
+    padding: 5px;
+    float: left; 
+    margin: 0 5% 0 3%; 
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    background: #F8F9FA;
+}
+#home:hover {
+    box-shadow: 0 0 10px black;
+}
+
+#tour {
+    position: fixed;
+    top: 2%;
+    left: 12%;
+
+    border: 1px solid #F8F9FA;
+    width: 80px;
+    border-radius: 50px;
+    padding: 5px;
+    float: left; 
+    margin: 0 5% 0 3%; 
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    background: #F8F9FA;
+}
+#tour:hover {
+    box-shadow: 0 0 10px black;
+}
+
+#contact {
+    position: fixed;
+    top: 2%;
+    left: 23%;
+
+    border: 1px solid #F8F9FA;
+    width: 80px;
+    border-radius: 50px;
+    padding: 5px;
+    float: left; 
+    margin: 0 5% 0 3%; 
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    background: #F8F9FA;
+}
+#contact:hover {
+    box-shadow: 0 0 10px black;
+}
+
+#switchMode {
+    position: fixed;
+    top: 2%;
+    right: 1%;
+
+    border: 1px solid #F8F9FA;
+    width: 110px;
+    border-radius: 50px;
+    padding: 5px;
+    float: left; 
+    margin: 0 5% 0 3%; 
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    background: #F8F9FA;
+
+}
+#switchMode:hover {
+    border: 1px solid black; 
+    background: black;
+    color: #F8F9FA; 
+}
+
+
+
+/* Main */
+
+/* Article heading + subtitle */
+#heading {
+    position: absolute;
+    margin: 0;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 66px;
+    color: #000000;
+}
+
+#subtitle {
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    top: 43%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+}
+
+
+/* Article #line */
+#line {
+    border: 1px solid black;
+    margin-top: 34%;
+    size: 1px; 
+    width: 92%; 
+    margin-bottom: 5%;
+    box-align: center; /*object alignment*/
+    opacity: 0.7; /*transparency*/
+} 
+
+/* Article content-about-countries */
