@@ -1,0 +1,331 @@
+/* CSS file for Light Mode is similar to Dark Mode besides the color scheme */
+
+/* General settings */
+body {
+    /* background: white; */
+    background-image: url(https://img2.goodfon.ru/wallpaper/nbig/3/ec/reka-gorod-arhitektura.jpg); /*https://cdn.hipwallpaper.com/i/90/23/sQaf3n.jpg*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+li {
+    list-style-type: none; /*remove markers in the list*/
+}
+
+
+/* Header-navbar */
+#navbar {
+    position: fixed;
+    top: 2%;
+    left: 5%;
+    right: 10%;
+    float: left;
+
+    border: 1px solid #F8F9FA;
+    width: 85%; 
+    box-align: center; 
+    height: 100px;
+    background: #F8F9FA;
+    border-radius: 50px; 
+
+    background-color:  #F8F9FA;
+    opacity: 0.8;
+}
+
+
+#eu {
+    position: fixed;
+    left: 5%;
+    margin: 0.4% 5% 0 3%; 
+    float: left; 
+    border: 1px solid black;
+    background: white;
+    border-radius: 25%; 
+    width: 30px; 
+    height: 30px;
+    padding: 30px;
+} 
+#img-eu { 
+    position: fixed;
+    left: 6%;
+    top: 1.5%;
+    margin: 1% 1% 1% 1%;
+    float: left;
+    width: 73.5px; 
+    height: 73.5px;
+    padding: 20px; 
+}
+
+#home {
+    position: fixed;
+    top: 8%;
+    left: 20%;
+
+    border: 1px solid #F8F9FA;
+    width: 100px;
+    border-radius: 50px;
+    padding: 5px;
+    float: left; 
+    margin: 0 5% 0 3%; 
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 30px;
+    background: #F8F9FA;
+}
+#home:hover {
+    border: 1px solid black;
+    box-shadow: 0 0 10px black
+}
+
+ #tour {
+    position: fixed;
+    top: 8%;
+    left: 32%;
+
+    border: 1px solid #F8F9FA;
+    width: 100px;
+    border-radius: 50px;
+    padding: 5px;
+    float: left; 
+    margin: 0 5% 0 3%; 
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 30px;
+    background: #F8F9FA;
+} 
+#tour:hover {
+    border: 1px solid black;
+    box-shadow: 0 0 10px black
+}
+
+#switchMode {
+    position: fixed;
+    top: 8%;
+    right: 10%;
+
+    border: 1px solid #F8F9FA;
+    width: 160px;
+    border-radius: 50px;
+    padding: 5px;
+    float: left; 
+    margin: 0 5% 0 3%; 
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 30px;
+    background: #F8F9FA;
+
+}
+#switchMode:hover {
+    border: 1px solid #F8F9FA; 
+    background: black;
+    color: #F8F9FA;  
+}
+
+
+/* Main */
+
+/* Article heading + subtitle */
+#heading {
+    position: absolute;
+    margin: 0;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 66px;
+    color: #000000;
+}
+
+#subtitle {
+    position: absolute;
+    margin: 0;
+    top: 38%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+}
+
+
+/* Article #line */
+#line {
+    border: 1px solid black;
+    margin-top: 27%;
+    size: 1px; 
+    width: 92%; 
+    box-align: center; /*object alignment*/
+    opacity: 0.7; /*transparency*/
+} 
+
+
+/* Article ul */
+#north {
+    position: fixed;
+    top: 47%;
+    left: 7%;
+
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 50px;
+    padding: 5px;
+    float: left; /* horizontal alignment of the element */
+    margin: 0 5% 0 3%; /* indents */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 30px;
+    background: #2bb1ff;
+}
+#north:hover {
+    box-shadow: 0 0 10px black;
+}
+
+#north-picture {
+    position: fixed;
+    top: 56%;
+    left: 1%;
+    margin-left: 30px; 
+    float: left; /* horizontal alignment of the element */
+
+    border: 1px solid black ;
+    background: grey;
+    border-radius: 10%; 
+    width: 200px; 
+    height: 120px;
+    padding: 10px;
+}
+/* #img-north {
+
+} */
+
+#west {
+    position: fixed;
+    top: 47%;
+    left: 30%;
+
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 50px;
+    padding: 5px;
+    float: left; /* horizontal alignment of the element */
+    margin: 0 5% 0 3%; /* indents */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 30px;
+    background: #2bb1ff;
+}
+#west:hover {
+    box-shadow: 0 0 10px black; 
+}
+
+#west-picture {
+    position: fixed;
+    top: 56%;
+    left: 24%;
+    margin-left: 30px; 
+    float: left; /* horizontal alignment of the element */
+
+    border: 1px solid black ;
+    background: grey;
+    border-radius: 10%; 
+    width: 200px; 
+    height: 120px;
+    padding: 10px;
+}
+/* #img-west {
+
+} */
+
+#east {
+    position: fixed;
+    top: 47%;
+    right: 30%;
+
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 50px;
+    padding: 5px;
+    float: left; /* horizontal alignment of the element */
+    margin: 0 5% 0 3%; /* indents */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 30px;
+    background: #2bb1ff;
+}
+#east:hover {
+    box-shadow: 0 0 10px black; 
+}
+
+#east-picture {
+    position: fixed;
+    top: 56%;
+    right: 28%;
+    margin-left: 30px; 
+    float: left; /* horizontal alignment of the element */
+
+    border: 1px solid black ;
+    background: grey;
+    border-radius: 10%; 
+    width: 200px; 
+    height: 120px;
+    padding: 10px;
+}
+/* #img-east {
+
+} */
+
+#south {
+    position: fixed;
+    top: 47%;
+    right: 6%;
+
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 50px;
+    padding: 5px;
+    float: left; /* horizontal alignment of the element */
+    margin: 0 5% 0 3%; /* indents */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 30px;
+    background: #2bb1ff;  
+}
+#south:hover {
+    box-shadow: 0 0 10px black;     
+}
+
+#south-picture {
+    position: fixed;
+    top: 56%;
+    right: 1%;
+    margin-right: 40px; 
+    float: left; /* horizontal alignment of the element */
+
+    border: 1px solid black ;
+    background: grey;
+    border-radius: 10%; 
+    width: 200px; 
+    height: 120px;
+    padding: 10px;
+}
+/* #img-south {
+
+} */
+
+
+
