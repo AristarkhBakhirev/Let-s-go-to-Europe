@@ -1,0 +1,209 @@
+/* CSS file for Light Mode is similar to Dark Mode besides the color scheme */
+
+/* General settings */
+body {
+    background: white; /* In case of image loss */
+    background-image: url(https://img2.goodfon.ru/wallpaper/nbig/b/73/nebo-gory-tuman-5863.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    font-family: Roboto;
+    font-style: normal;
+
+    overflow-x: hidden;
+}
+
+li {
+    list-style-type: none; /*remove markers in the list*/
+}
+
+
+/* Header-navbar */
+#navbar {
+	opacity: 0.9;
+}
+
+#home {
+    position: absolute;
+    top: 2%;
+    left: 1%;
+
+    border: 1px solid #EADEDE;
+    width: 80px;
+    border-radius: 50px;
+    padding: 5px;
+    float: left; 
+    margin: 0 5% 0 3%; 
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    background: #EADEDE;
+}
+#home:hover {
+    box-shadow: 0 0 10px black;
+}
+
+#donate {
+    position: absolute;
+    top: 2%;
+    left: 12%;
+
+    border: 1px solid #EADEDE;
+    width: 80px;
+    border-radius: 50px;
+    padding: 5px;
+    float: left; 
+    margin: 0 5% 0 3%; 
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    background: #EADEDE;
+}
+#donate:hover {
+    box-shadow: 0 0 10px black;
+}
+
+#switchMode {
+    position: absolute;
+    top: 2%;
+    right: 1%;
+
+    border: 1px solid #EADEDE;
+    width: 110px;
+    border-radius: 50px;
+    padding: 5px;
+    float: left; 
+    margin: 0 5% 0 3%; 
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    background: #EADEDE;
+
+}
+#switchMode:hover {
+    border: 1px solid black; 
+    background: black;
+    color: #EADEDE; 
+}
+
+
+
+/* Main */
+
+/* Article heading + subtitle */
+#heading {
+    position: absolute;
+    margin: 0;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 66px;
+    color: #000000;
+}
+
+#subtitle {
+    position: absolute;
+    margin: 2% 1% 1% 1%;
+    top: 38%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+}
+
+
+/* Article #stable-version and #team develepment */
+#stable-version{
+    position: absolute;
+    top: 56%;
+    left: 3%; 
+    float: left; /* horizontal alignment of the element */
+
+    border: 2px solid black;
+    border-radius: 5%; 
+    overflow: hidden; /* Auto-fitting the image to the border */
+    width: 350px; 
+    height: 250px;
+}
+
+#developement-team {
+    position: absolute;
+    top: 56%;
+    left: 40%;
+    float: left; /* horizontal alignment of the element */
+
+    border: 2px solid black;
+    border-radius: 5%; 
+    overflow: hidden; /* Auto-fitting the image to the border */
+    width: 300px; 
+    height: 250px;	
+}
+
+#team-leader {
+    position: absolute;
+    top: 56%;
+    left: 80%;
+    float: left; /* horizontal alignment of the element */
+
+    border: 2px solid black;
+    border-radius: 5%; 
+    overflow: hidden; /* Auto-fitting the image to the border */
+    width: 180px; 
+    height: 250px;		
+}
+
+
+/* Article #comment and #line*/
+#comment {
+	font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+
+    margin-left: 20%;
+    margin-top: 62%;
+    float: left;
+    padding: 3px;
+}
+
+#line { 
+	position: absolute;
+    border: 1px solid black;
+    margin-top: 62%;
+    size: 1px; 
+    width: 92%; 
+    margin-bottom: 5%;
+    box-align: center; 
+    opacity: 0.7; 
+} 
+
+/* Article #social */
+#social-heading {
+    position: relative;
+    top: 8%;
+    left: 30%;
+    text-align: center;
+    float: left;
+    padding: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 66px;
+    color: #000000;
+}
